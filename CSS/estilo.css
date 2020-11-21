@@ -291,23 +291,31 @@
      margin: 0px 5px;
 }
 
-.zoom{
-    overflow: hidden;
-}
-
-.zoom img{
-    max-width: 100%;
-    -webkit-transformatiom: 0.3s;
-    transition: all 0.3s;
-}
-
-.zoom:hover img{
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
+.f1:hover {
+    transition: 0.3s;
     transform: scale(1.1);
+    box-shadow: 5px 2px 8px 2px;
 }
 
-/* RODAPÉ NIGGA */
+.f2:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+    box-shadow: 5px 2px 8px 2px;
+}
+
+.f3:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+    box-shadow: 5px 2px 8px 2px;
+}
+
+.f4:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+    box-shadow: 5px 2px 8px 2px;
+}
+
+/* RODAPÉ*/
 
 footer{
     width: 100%;
